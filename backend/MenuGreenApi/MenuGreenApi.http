@@ -1,0 +1,6 @@
+@MenuGreenApi_HostAddress = http://localhost:5067
+
+GET {{MenuGreenApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,57 @@
+# OS / editor chung
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.swo
+
+# VS / Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build output .NET
+bin/
+obj/
+
+# Paket / NuGet
+packages/
+*.nupkg
+.nuget/
+
+# Rider / IntelliJ
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Node / frontend cũ (nếu có)
+node_modules/
+dist/
+build/
+
+# Flutter / Dart (frontend_flutter, nếu chạy ở root)
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+
+# Android / iOS / desktop Flutter (nếu tạo ở root)
+android/.gradle/
+android/local.properties
+android/**/GeneratedPluginRegistrant.java
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Pods/
+ios/Podfile.lock
+macos/Flutter/GeneratedPluginRegistrant.swift
+macos/Flutter/ephemeral/
+windows/flutter/
+linux/flutter/
+
